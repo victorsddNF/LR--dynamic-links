@@ -1,0 +1,13 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.ssd.letsride.mobile",
+        "sha256_cert_fingerprints":[
+          "B6:84:60:17:0E:0B:E9:DE:F7:7C:EC:D7:80:E5:18:36:27:8C:86:79:69:46:47:54:01:77:3C:A7:95:84:9E:EA",
+          "DC:1C:09:41:51:07:2A:04:F0:FF:6E:7E:AB:F9:93:47:CB:43:AB:6B:0C:FA:3C:CC:81:6E:8C:6E:C0:AE:CE:32"
+        ]
+      }
+    }
+  ]
