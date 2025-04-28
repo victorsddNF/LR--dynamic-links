@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Reset your password</title>
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      const hash = window.location.hash;
+      if (hash.includes('access_token')) {
+        window.location.replace('Lets-Ride://reset-password' + hash);
+      } else {
+        document.getElementById('info').textContent =
+          'No se recibió token de reseteo.';
+      }
+    });
+  </script>
+</head>
+<body style="font-family:sans-serif;padding:1em">
+  <h1>Reset your password</h1>
+  <p id="info">Cargando…</p>
+</body>
+</html>
